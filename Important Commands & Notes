@@ -1,0 +1,18 @@
+--------------------------------
+For Deleting a typo3 project :-
+--------------------------------
+Step 1: Open Terminal
+Step 2: ddev poweroff
+Step 3: ddev delete --omit-snapshot (Deleting a DDEV Instance)
+
+-------------------------------------------------
+Setting up already created roject in other pc :-
+-------------------------------------------------
+Step 1: Rename the folder as per requirement. 
+Step 2: Open terminal in the folder.
+Step 3: run: ddev config
+Step 4: Enter the new Project Name 
+Step 5: Leave blank Docroot Location & Project Type
+Step 6: run: ddev exec touch FIRST_INSTALL
+Step 7: run: ddev launch typo3/install.php
+Step 8: setup the project and you are good to go.
