@@ -1,10 +1,10 @@
--------------------------------
-Basic Typo3 Installation Steps
--------------------------------
+---------------------------------------------------
+Basic Typo3 Installation Steps ** From Composer **
+---------------------------------------------------
 Step 1: mkdir shift
 Step 2: cd shift
 Step 3: ddev config --project-type=typo3 --create-docroot --docroot=public
-Step 4: ddev sta
+Step 4: ddev start
 Step 5: ddev composer create "typo3/cms-base-distribution:^13"
 Step 6: ddev launch
 Step 7: composer update --ignore-platform-reqs (if required of show php version error)
@@ -13,24 +13,9 @@ Step 9: Reload browser
 Step 10: Click Next & you will be directly goto 80% complete as you didn't set any data base.
 Step 11: Enter Id & Password and email if required.
 
----------------------------
-Typo3 13 Installation Steps
----------------------------
-Step 1: mkdir shift
-Step 2: cd shift
-Step 3: ddev config --php-version 8.2
-Step 4: ddev config  --project-type=typo3 --docroot=public --php-version 8.2
-Step 5: ddev start
-Step 6: ddev composer create "typo3/cms-base-distribution:^13"
-Step 7: ddev exec touch public/FIRST_INSTALL
-Step 8: ddev launch typo3/install.php
-Step 9: ddev launch typo3
-Step 10: Create id and password
-Step 9: Select create empty page.
-
-------------------------------------------
-Typo3 13 Installation Steps Using Zip File
-------------------------------------------
+-------------------------------------------------
+Typo3 13 Installation Steps Using ** Zip File **
+-------------------------------------------------
 Step 1: Download the zip file from https://get.typo3.org/
 Step 2: Extract zip folder
 Step 3: Inside extracted folder open terminal and run following commands
@@ -42,7 +27,7 @@ Step 8: Create id and password
 Step 9: Select create empty page.
 
 --------------------------
-How to create a home page.
+How to create a Home page.
 --------------------------
 1. Create a page title Home Page
 2. Edit page properties
