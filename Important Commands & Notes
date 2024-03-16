@@ -1,9 +1,17 @@
 --------------------------------
-For Deleting a typo3 project :-
+Important Commands :-
 --------------------------------
-Step 1: Open Terminal
-Step 2: ddev poweroff
-Step 3: ddev delete --omit-snapshot (Deleting a DDEV Instance)
+1. To unlist project - ddev stop --unlist project-name
+2. To turnoff ddev - ddev ddev poweroff
+3. Deleting a DDEV Instance - ddev delete --omit-snapshot
+4. To start ddev - ddev start
+5. To launch ddev - ddev launch
+6. To launch typo3 backend - ddev launch typo3
+7. To set configuration - ddev config
+8. To set config with php - ddev config --php-version 8.2
+9. To set config in a new composer based project - ddev config  --project-type=typo3 --docroot=public --php-version 8.2
+10. To create an empty file - ddev exec touch FIRST_INSTALL
+11. To launch typo3 installation page - ddev launch typo3/install.php
 
 -------------------------------------------------
 Setting up already created roject in other pc :-
