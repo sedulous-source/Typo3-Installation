@@ -1,0 +1,10 @@
+-------------
+GIT COMMANDS
+-------------
+cd existing_repo
+git remote add origin https://gitlab.com/typo31054911/shift-boilerplate.git
+git add .
+git commit -m "Task"
+git push -uf origin main
+git branch -M main
+
