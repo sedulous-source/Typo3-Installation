@@ -1,3 +1,5 @@
+Step 1:- Add below code setup:-
+
 page = PAGE
 page.10 = TEXT
 page.10.value (
@@ -16,3 +18,6 @@ page.100 {
         where = {#colPos}=0
     }
 }
+
+
+Step 2:- After this, goto Advance Option in Typoscript and Add all the available extensions.
