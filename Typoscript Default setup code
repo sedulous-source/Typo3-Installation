@@ -20,4 +20,16 @@ page.100 {
 }
 
 
+/****Minified Code****/
+# Default PAGE object:
+page = PAGE
+page.100 {
+    table = tt_content
+    select {
+        orderBy = sorting
+        where = {#colPos}=0
+    }
+}
+/**********************/
+
 Step 2:- After this, goto Advance Option in Typoscript and Add all the available extensions.
